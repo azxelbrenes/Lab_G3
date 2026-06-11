@@ -1,0 +1,15 @@
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.Dominio\bin\Debug\net10.0\Lab1_G3.Dominio.deps.json
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.Dominio\bin\Debug\net10.0\Lab1_G3.Dominio.dll
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.Dominio\bin\Debug\net10.0\Lab1_G3.Dominio.pdb
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.Dominio\bin\Debug\net10.0\Lab1_G3.Utilitarios.dll
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.Dominio\bin\Debug\net10.0\Lab1_G3.Utilitarios.pdb
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.Dominio\obj\Debug\net10.0\Lab1_G3.Dominio.csproj.AssemblyReference.cache
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.Dominio\obj\Debug\net10.0\Lab1_G3.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.Dominio\obj\Debug\net10.0\Lab1_G3.Dominio.AssemblyInfoInputs.cache
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.Dominio\obj\Debug\net10.0\Lab1_G3.Dominio.AssemblyInfo.cs
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.Dominio\obj\Debug\net10.0\Lab1_G3.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.Dominio\obj\Debug\net10.0\Lab1_G3..556146D7.Up2Date
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.Dominio\obj\Debug\net10.0\Lab1_G3.Dominio.dll
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.Dominio\obj\Debug\net10.0\refint\Lab1_G3.Dominio.dll
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.Dominio\obj\Debug\net10.0\Lab1_G3.Dominio.pdb
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.Dominio\obj\Debug\net10.0\ref\Lab1_G3.Dominio.dll

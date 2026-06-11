@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Lab1_G3# .Utilitarios/Lab1_G3.Utilitarios.csproj" />
+  <Project Path="Lab1_G3#.AccesoDatos/Lab1_G3.AccesoDatos.csproj" />
+  <Project Path="Lab1_G3#.Dominio/Lab1_G3.Dominio.csproj" />
+  <Project Path="Lab1_G3#.LogicaNegocios/Lab1_G3.LogicaNegocios.csproj" />
+</Solution>

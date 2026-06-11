@@ -1,0 +1,14 @@
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.LogicaNegocios\bin\Debug\net10.0\Lab1_G3#.LogicaNegocios.deps.json
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.LogicaNegocios\bin\Debug\net10.0\Lab1_G3#.LogicaNegocios.runtimeconfig.json
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.LogicaNegocios\bin\Debug\net10.0\Lab1_G3#.LogicaNegocios.dll
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.LogicaNegocios\bin\Debug\net10.0\Lab1_G3#.LogicaNegocios.pdb
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.LogicaNegocios\obj\Debug\net10.0\Lab1_G3#.LogicaNegocios.csproj.AssemblyReference.cache
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.LogicaNegocios\obj\Debug\net10.0\Lab1_G3#.LogicaNegocios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.LogicaNegocios\obj\Debug\net10.0\Lab1_G3#.LogicaNegocios.AssemblyInfoInputs.cache
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.LogicaNegocios\obj\Debug\net10.0\Lab1_G3#.LogicaNegocios.AssemblyInfo.cs
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.LogicaNegocios\obj\Debug\net10.0\Lab1_G3#.LogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.LogicaNegocios\obj\Debug\net10.0\Lab1_G3#.LogicaNegocios.dll
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.LogicaNegocios\obj\Debug\net10.0\refint\Lab1_G3#.LogicaNegocios.dll
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.LogicaNegocios\obj\Debug\net10.0\Lab1_G3#.LogicaNegocios.pdb
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.LogicaNegocios\obj\Debug\net10.0\Lab1_G3#.LogicaNegocios.genruntimeconfig.cache
+C:\Users\azxel\source\repos\Lab1_G3#.AccesoDatos\Lab1_G3#.LogicaNegocios\obj\Debug\net10.0\ref\Lab1_G3#.LogicaNegocios.dll
