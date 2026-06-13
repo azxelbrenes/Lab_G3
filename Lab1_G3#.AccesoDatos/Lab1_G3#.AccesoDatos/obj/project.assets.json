@@ -3766,11 +3766,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\azxel\\source\\repos\\Lab1_G3#.AccesoDatos\\Lab1_G3#.AccesoDatos\\Lab1_G3.AccesoDatos.csproj",
+      "projectUniqueName": "C:\\Users\\azxel\\OneDrive\\Documentos\\GitHub\\Lab_G3\\Lab1_G3#.AccesoDatos\\Lab1_G3#.AccesoDatos\\Lab1_G3.AccesoDatos.csproj",
       "projectName": "Lab1_G3.AccesoDatos",
-      "projectPath": "C:\\Users\\azxel\\source\\repos\\Lab1_G3#.AccesoDatos\\Lab1_G3#.AccesoDatos\\Lab1_G3.AccesoDatos.csproj",
+      "projectPath": "C:\\Users\\azxel\\OneDrive\\Documentos\\GitHub\\Lab_G3\\Lab1_G3#.AccesoDatos\\Lab1_G3#.AccesoDatos\\Lab1_G3.AccesoDatos.csproj",
       "packagesPath": "C:\\Users\\azxel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\azxel\\source\\repos\\Lab1_G3#.AccesoDatos\\Lab1_G3#.AccesoDatos\\obj\\",
+      "outputPath": "C:\\Users\\azxel\\OneDrive\\Documentos\\GitHub\\Lab_G3\\Lab1_G3#.AccesoDatos\\Lab1_G3#.AccesoDatos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3793,8 +3793,8 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\azxel\\source\\repos\\Lab1_G3#.AccesoDatos\\Lab1_G3#.Dominio\\Lab1_G3.Dominio.csproj": {
-              "projectPath": "C:\\Users\\azxel\\source\\repos\\Lab1_G3#.AccesoDatos\\Lab1_G3#.Dominio\\Lab1_G3.Dominio.csproj"
+            "C:\\Users\\azxel\\OneDrive\\Documentos\\GitHub\\Lab_G3\\Lab1_G3#.AccesoDatos\\Lab1_G3#.Dominio\\Lab1_G3.Dominio.csproj": {
+              "projectPath": "C:\\Users\\azxel\\OneDrive\\Documentos\\GitHub\\Lab_G3\\Lab1_G3#.AccesoDatos\\Lab1_G3#.Dominio\\Lab1_G3.Dominio.csproj"
             }
           }
         }

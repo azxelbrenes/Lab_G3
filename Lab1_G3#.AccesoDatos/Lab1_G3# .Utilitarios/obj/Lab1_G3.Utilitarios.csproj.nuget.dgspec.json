@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\azxel\\source\\repos\\Lab1_G3#.AccesoDatos\\Lab1_G3# .Utilitarios\\Lab1_G3.Utilitarios.csproj": {}
+    "C:\\Users\\azxel\\OneDrive\\Documentos\\GitHub\\Lab_G3\\Lab1_G3#.AccesoDatos\\Lab1_G3# .Utilitarios\\Lab1_G3.Utilitarios.csproj": {}
   },
   "projects": {
-    "C:\\Users\\azxel\\source\\repos\\Lab1_G3#.AccesoDatos\\Lab1_G3# .Utilitarios\\Lab1_G3.Utilitarios.csproj": {
+    "C:\\Users\\azxel\\OneDrive\\Documentos\\GitHub\\Lab_G3\\Lab1_G3#.AccesoDatos\\Lab1_G3# .Utilitarios\\Lab1_G3.Utilitarios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\azxel\\source\\repos\\Lab1_G3#.AccesoDatos\\Lab1_G3# .Utilitarios\\Lab1_G3.Utilitarios.csproj",
+        "projectUniqueName": "C:\\Users\\azxel\\OneDrive\\Documentos\\GitHub\\Lab_G3\\Lab1_G3#.AccesoDatos\\Lab1_G3# .Utilitarios\\Lab1_G3.Utilitarios.csproj",
         "projectName": "Lab1_G3.Utilitarios",
-        "projectPath": "C:\\Users\\azxel\\source\\repos\\Lab1_G3#.AccesoDatos\\Lab1_G3# .Utilitarios\\Lab1_G3.Utilitarios.csproj",
+        "projectPath": "C:\\Users\\azxel\\OneDrive\\Documentos\\GitHub\\Lab_G3\\Lab1_G3#.AccesoDatos\\Lab1_G3# .Utilitarios\\Lab1_G3.Utilitarios.csproj",
         "packagesPath": "C:\\Users\\azxel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\azxel\\source\\repos\\Lab1_G3#.AccesoDatos\\Lab1_G3# .Utilitarios\\obj\\",
+        "outputPath": "C:\\Users\\azxel\\OneDrive\\Documentos\\GitHub\\Lab_G3\\Lab1_G3#.AccesoDatos\\Lab1_G3# .Utilitarios\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

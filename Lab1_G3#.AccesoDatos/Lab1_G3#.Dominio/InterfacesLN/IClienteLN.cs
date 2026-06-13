@@ -14,5 +14,7 @@ namespace Lab1_G3.Dominio.InterfacesLN
         Respuesta<IEnumerable<TCliente>> Obtener(TCliente Cliente);
         Respuesta<TCliente> Buscar(TCliente Cliente);
         Respuesta<IEnumerable<TCliente>> Listar();
+
+        //--Hola
     }
 }
