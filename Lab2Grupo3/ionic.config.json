@@ -1,0 +1,7 @@
+{
+  "name": "Lab2Grupo3",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
