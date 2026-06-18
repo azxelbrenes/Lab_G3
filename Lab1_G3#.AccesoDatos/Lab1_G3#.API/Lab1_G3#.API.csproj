@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Lab1_G3_.API</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lab1_G3#.Dominio\Lab1_G3.Dominio.csproj" />
+    <ProjectReference Include="..\Lab1_G3#.LogicaNegocios\Lab1_G3.LogicaNegocios.csproj" />
+  </ItemGroup>
+
+</Project>
