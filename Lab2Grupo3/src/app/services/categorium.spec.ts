@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { Categorium } from './categorium';
+import { CategoriumService } from './categorium';
 
-describe('Categorium', () => {
-  let service: Categorium;
+describe('CategoriumService', () => {
+  let service: CategoriumService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(Categorium);
+    service = TestBed.inject(CategoriumService);
   });
 
   it('should be created', () => {

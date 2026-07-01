@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { SegPerfil } from './seg-perfil';
+import { SegPerfilService } from './seg-perfil';
 
 describe('SegPerfil', () => {
-  let service: SegPerfil;
+  let service: SegPerfilService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(SegPerfil);
+    service = TestBed.inject(SegPerfilService);
   });
 
   it('should be created', () => {

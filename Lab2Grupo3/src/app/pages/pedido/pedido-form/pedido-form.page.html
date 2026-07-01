@@ -1,0 +1,47 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/pedidos"></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{ isEdit ? 'Editar Pedido' : 'Nuevo Pedido' }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <form [formGroup]="form" (ngSubmit)="guardar()">
+
+    <ion-item>
+      <ion-label position="stacked">Cliente ID</ion-label>
+      <ion-input type="number" formControlName="clienteId"></ion-input>
+    </ion-item>
+    <p class="error" *ngIf="form.get('clienteId')?.touched && form.get('clienteId')?.invalid">
+      El cliente es obligatorio.
+    </p>
+
+    <ion-item>
+      <ion-label position="stacked">Fecha del pedido</ion-label>
+      <ion-input type="date" formControlName="fechaPedido"></ion-input>
+    </ion-item>
+    <p class="error" *ngIf="form.get('fechaPedido')?.touched && form.get('fechaPedido')?.invalid">
+      La fecha es obligatoria.
+    </p>
+
+    <ion-item>
+      <ion-label position="stacked">Moneda</ion-label>
+      <ion-input formControlName="moneda"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked">Total</ion-label>
+      <ion-input type="number" formControlName="total"></ion-input>
+    </ion-item>
+    <p class="error" *ngIf="form.get('total')?.touched && form.get('total')?.invalid">
+      El total debe ser mayor o igual a 0.
+    </p>
+
+    <ion-button expand="block" type="submit" class="ion-margin-top" [disabled]="guardando">
+      {{ isEdit ? 'Actualizar' : 'Guardar' }}
+    </ion-button>
+
+  </form>
+</ion-content>

@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Perfil x Pantalla</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item *ngFor="let item of perfilXPantallas">
+      <ion-label>
+        <p>codigoPerfil: {{ item.codigoPerfil }}</p>
+        <p>codigoPantalla: {{ item.codigoPantalla }}</p>
+      </ion-label>
+      <ion-button fill="clear" [routerLink]="['/perfil-pantallas/editar', item.perfilXpantallaId]">
+        <ion-icon slot="icon-only" name="create-outline"></ion-icon>
+      </ion-button>
+      <ion-button fill="clear" color="danger" (click)="eliminar(item)">
+        <ion-icon slot="icon-only" name="trash-outline"></ion-icon>
+      </ion-button>
+    </ion-item>
+  </ion-list>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button [routerLink]="['/perfil-pantallas/nuevo']">
+      <ion-icon name="add-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>

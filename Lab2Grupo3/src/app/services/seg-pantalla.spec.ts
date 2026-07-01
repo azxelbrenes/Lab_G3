@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { SegPantalla } from './seg-pantalla';
+import { SegPantallaService } from './seg-pantalla';
 
 describe('SegPantalla', () => {
-  let service: SegPantalla;
+  let service: SegPantallaService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(SegPantalla);
+    service = TestBed.inject(SegPantallaService);
   });
 
   it('should be created', () => {

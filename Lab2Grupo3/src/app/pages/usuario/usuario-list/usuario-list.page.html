@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Usuarios</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item *ngFor="let item of usuarios">
+      <ion-label>
+        <p>nombre: {{ item.nombre }}</p>
+        <p>apellidos: {{ item.apellidos }}</p>
+        <p>email: {{ item.email }}</p>
+      </ion-label>
+      <ion-button fill="clear" [routerLink]="['/usuarios/editar', item.usuario]">
+        <ion-icon slot="icon-only" name="create-outline"></ion-icon>
+      </ion-button>
+      <ion-button fill="clear" color="danger" (click)="eliminar(item)">
+        <ion-icon slot="icon-only" name="trash-outline"></ion-icon>
+      </ion-button>
+    </ion-item>
+  </ion-list>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button [routerLink]="['/usuarios/nuevo']">
+      <ion-icon name="add-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>

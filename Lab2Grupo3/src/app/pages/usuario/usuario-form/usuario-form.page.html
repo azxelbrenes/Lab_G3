@@ -1,0 +1,89 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/usuarios"></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{ isEdit ? 'Editar Usuario' : 'Nuevo Usuario' }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <form [formGroup]="form" (ngSubmit)="guardar()">
+
+    <ion-item>
+      <ion-label position="stacked">Usuario</ion-label>
+      <ion-input type="text" formControlName="usuario"></ion-input>
+    </ion-item>
+    <p class="error" *ngIf="form.get('usuario')?.touched && form.get('usuario')?.invalid">
+      Campo obligatorio.
+    </p>
+
+    <ion-item>
+      <ion-label position="stacked">Cédula</ion-label>
+      <ion-input type="text" formControlName="cedulaUsuario"></ion-input>
+    </ion-item>
+    <p class="error" *ngIf="form.get('cedulaUsuario')?.touched && form.get('cedulaUsuario')?.invalid">
+      Campo obligatorio.
+    </p>
+
+    <ion-item>
+      <ion-label position="stacked">Tipo de cédula (ID)</ion-label>
+      <ion-input type="number" formControlName="tipoCedulaId"></ion-input>
+    </ion-item>
+    <p class="error" *ngIf="form.get('tipoCedulaId')?.touched && form.get('tipoCedulaId')?.invalid">
+      Campo obligatorio.
+    </p>
+
+    <ion-item>
+      <ion-label position="stacked">Nombre</ion-label>
+      <ion-input type="text" formControlName="nombre"></ion-input>
+    </ion-item>
+    <p class="error" *ngIf="form.get('nombre')?.touched && form.get('nombre')?.invalid">
+      Campo obligatorio.
+    </p>
+
+    <ion-item>
+      <ion-label position="stacked">Apellidos</ion-label>
+      <ion-input type="text" formControlName="apellidos"></ion-input>
+    </ion-item>
+    <p class="error" *ngIf="form.get('apellidos')?.touched && form.get('apellidos')?.invalid">
+      Campo obligatorio.
+    </p>
+
+    <ion-item>
+      <ion-label position="stacked">Dirección</ion-label>
+      <ion-input type="text" formControlName="direccion"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked">Perfil (código)</ion-label>
+      <ion-input type="number" formControlName="codigoPerfil"></ion-input>
+    </ion-item>
+    <p class="error" *ngIf="form.get('codigoPerfil')?.touched && form.get('codigoPerfil')?.invalid">
+      Campo obligatorio.
+    </p>
+
+    <ion-item>
+      <ion-label position="stacked">Email</ion-label>
+      <ion-input type="text" formControlName="email"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked">Teléfono</ion-label>
+      <ion-input type="text" formControlName="telefono"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked">Estado</ion-label>
+      <ion-input type="number" formControlName="estado"></ion-input>
+    </ion-item>
+    <p class="error" *ngIf="form.get('estado')?.touched && form.get('estado')?.invalid">
+      Campo obligatorio.
+    </p>
+
+    <ion-button expand="block" type="submit" class="ion-margin-top" [disabled]="guardando">
+      {{ isEdit ? 'Actualizar' : 'Guardar' }}
+    </ion-button>
+
+  </form>
+</ion-content>

@@ -1,0 +1,34 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/perfil-pantallas"></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{ isEdit ? 'Editar Relación Perfil-Pantalla' : 'Nuevo Relación Perfil-Pantalla' }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <form [formGroup]="form" (ngSubmit)="guardar()">
+
+    <ion-item>
+      <ion-label position="stacked">Perfil (código)</ion-label>
+      <ion-input type="number" formControlName="codigoPerfil"></ion-input>
+    </ion-item>
+    <p class="error" *ngIf="form.get('codigoPerfil')?.touched && form.get('codigoPerfil')?.invalid">
+      Campo obligatorio.
+    </p>
+
+    <ion-item>
+      <ion-label position="stacked">Pantalla (código)</ion-label>
+      <ion-input type="number" formControlName="codigoPantalla"></ion-input>
+    </ion-item>
+    <p class="error" *ngIf="form.get('codigoPantalla')?.touched && form.get('codigoPantalla')?.invalid">
+      Campo obligatorio.
+    </p>
+
+    <ion-button expand="block" type="submit" class="ion-margin-top" [disabled]="guardando">
+      {{ isEdit ? 'Actualizar' : 'Guardar' }}
+    </ion-button>
+
+  </form>
+</ion-content>

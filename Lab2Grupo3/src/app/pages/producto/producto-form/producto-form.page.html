@@ -1,0 +1,63 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/productos"></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{ isEdit ? 'Editar Producto' : 'Nuevo Producto' }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <form [formGroup]="form" (ngSubmit)="guardar()">
+
+    <ion-item>
+      <ion-label position="stacked">Código de producto</ion-label>
+      <ion-input type="text" formControlName="productoId"></ion-input>
+    </ion-item>
+    <p class="error" *ngIf="form.get('productoId')?.touched && form.get('productoId')?.invalid">
+      Campo obligatorio.
+    </p>
+
+    <ion-item>
+      <ion-label position="stacked">Nombre</ion-label>
+      <ion-input type="text" formControlName="nombre"></ion-input>
+    </ion-item>
+    <p class="error" *ngIf="form.get('nombre')?.touched && form.get('nombre')?.invalid">
+      Campo obligatorio.
+    </p>
+
+    <ion-item>
+      <ion-label position="stacked">Precio</ion-label>
+      <ion-input type="number" formControlName="precio"></ion-input>
+    </ion-item>
+    <p class="error" *ngIf="form.get('precio')?.touched && form.get('precio')?.invalid">
+      Campo obligatorio.
+    </p>
+
+    <ion-item>
+      <ion-label position="stacked">Stock</ion-label>
+      <ion-input type="number" formControlName="stock"></ion-input>
+    </ion-item>
+    <p class="error" *ngIf="form.get('stock')?.touched && form.get('stock')?.invalid">
+      Campo obligatorio.
+    </p>
+
+    <ion-item>
+      <ion-label position="stacked">Categoría (ID)</ion-label>
+      <ion-input type="number" formControlName="categoriaId"></ion-input>
+    </ion-item>
+    <p class="error" *ngIf="form.get('categoriaId')?.touched && form.get('categoriaId')?.invalid">
+      Campo obligatorio.
+    </p>
+
+    <ion-item>
+      <ion-label>Activo</ion-label>
+      <ion-toggle formControlName="activo"></ion-toggle>
+    </ion-item>
+
+    <ion-button expand="block" type="submit" class="ion-margin-top" [disabled]="guardando">
+      {{ isEdit ? 'Actualizar' : 'Guardar' }}
+    </ion-button>
+
+  </form>
+</ion-content>
